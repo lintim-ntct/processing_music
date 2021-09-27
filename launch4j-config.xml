@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <headerType>gui</headerType>
+  <dontWrapJar>true</dontWrapJar>
+  <downloadUrl>https://adoptopenjdk.net/</downloadUrl>
+  <outfile>C:\Users\skhs\OneDrive - 南投縣立旭光高級中學\桌面\OSC2Sonic_pi\application.windows\OSC2Sonic_pi.exe</outfile>
+  <icon>C:\Users\skhs\OneDrive - 南投縣立旭光高級中學\桌面\processing-4.0b1\modes\java\application\application.ico</icon>
+  <classPath>
+    <mainClass>OSC2Sonic_pi</mainClass>
+    <cp>lib/OSC2Sonic_pi.jar</cp>
+    <cp>lib/core.jar</cp>
+    <cp>lib/gluegen-rt-natives-windows-amd64.jar</cp>
+    <cp>lib/gluegen-rt.jar</cp>
+    <cp>lib/jogl-all-natives-windows-amd64.jar</cp>
+    <cp>lib/jogl-all.jar</cp>
+    <cp>lib/oscP5.jar</cp>
+  </classPath>
+  <jre>
+    <path>java</path>
+    <minVersion>11.0.11</minVersion>
+    <opt>-Djna.nosys=true</opt>
+    <opt>-Djava.library.path="%EXEDIR%\lib"</opt>
+  </jre>
+</launch4jConfig>
